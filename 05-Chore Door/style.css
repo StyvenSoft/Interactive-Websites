@@ -2,3 +2,7 @@ body {
     background-color: #211e2f;
     margin: 0px;
   }
+  .door-frame{
+    cursor: pointer;
+    padding: 10px;
+  }
