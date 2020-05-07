@@ -7,11 +7,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
     <!-- Add an {{each}} helper block in the <script> element below-->
     <script id="languagesTemp" type="text/x-handlebars-template">
-			{{#each languages}}
-      	<div class="card">
-        	<p>I should learn {{this.name}}.</p>
-        </div>
-      {{/each}}
+	    {{#each languages}}
+        <div class="card">
+            {{#if this.modern}}
+              <p>I should learn {{this.name}}.</p>
+              {{else}}
+              <p>When I have time, I'll learn {{this.name}}</p>
+            {{/if}}
+          </div>
+        {{/each}}
     </script>
   </head>
   <body>
