@@ -7,6 +7,11 @@
     <title>Musicon</title>
     <link rel="stylesheet" href="public/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+      <a href="./store.html">Show Now</a>
+    </script>
   </head>
 
   <body>
@@ -32,15 +37,11 @@
     </header>
 
     <article id="introduction">
-      <section class="container">
-        <h1>Welcome to Musicon</h1>
-        <p>Musicon is a budding musical storefront with a mission to share the joy of music. These magnificent auditory tools are designed with musical creators, like you, in mind. Hobbyists, beginners, and experts alike can appreciate the resplendent sounds supplied by each and every instrument we carry. Join us in delivering the euphoric vibrations of melodia to the citizens of the world!</p>
-        <a href="store.html">Shop Now</a>
-      </section>
+      <section id="information" class="container"></section>
     </article>
 
     <footer>
-      <p>&copy; Musicon</p>
+      <p>&copy; Musicon 2020</p>
     </footer>
     <script src="public/main.js"></script>
   </body>
