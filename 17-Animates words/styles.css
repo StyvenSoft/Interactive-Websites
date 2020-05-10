@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  }
+
+h1 {
+    font-family: sans-serif,"Lucida Console", monospace;
+    text-align: center;
+    color: #03a9f4;
+  }
+  
+  canvas {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
